@@ -9,7 +9,7 @@ export default function Encabezado({ nombre, onNombre }) {
     <header>
       <p className="encabezado-eyebrow">Día de Muertos</p>
       <h1>
-        Mi <span>ofrenda</span>
+        La <span>ofrenda</span> 
       </h1>
       <p className="encabezado-sub">
         <label htmlFor="nombre">Lo está armando</label>
