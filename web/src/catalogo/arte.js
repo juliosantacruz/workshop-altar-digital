@@ -180,6 +180,24 @@ export const ARTE = {
     </g>
     <path d="M38 24 q 12 -8 24 0" stroke="${AMARILLO}" stroke-width="4" fill="none" stroke-linecap="round"/>
   `),
+
+  // Control de Nintendo. Las tardes que paso jugando.
+  control: svg(`
+    <rect x="12" y="34" width="76" height="32" rx="4" fill="${OSCURO}"/>
+    <rect x="12" y="34" width="76" height="10" rx="4" fill="#3A3340"/>
+    <rect x="12" y="60" width="76" height="6" rx="3" fill="#C1440E"/>
+    <g fill="${CREMA}">
+      <rect x="24" y="46" width="7" height="19" rx="1"/>
+      <rect x="18" y="52" width="19" height="7" rx="1"/>
+    </g>
+    <circle cx="32.5" cy="55.5" r="2.4" fill="#3A3340"/>
+    <g fill="#6E6676">
+      <rect x="46" y="52" width="8" height="5" rx="2"/>
+      <rect x="57" y="52" width="8" height="5" rx="2"/>
+    </g>
+    <circle cx="72" cy="54" r="6" fill="${OXIDO}"/>
+    <circle cx="82" cy="54" r="6" fill="${OXIDO}"/>
+  `),
 }
 
 // Si algun dia alguien inventa un tipo nuevo y todavia no le dibuja arte,

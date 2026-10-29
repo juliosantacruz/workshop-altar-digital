@@ -76,6 +76,13 @@ export const TIPOS = {
     pideTexto: true,
     ayuda: 'El nombre que va en la frente',
   },
+  control: {
+    etiqueta: 'Control de Nintendo',
+    grupo: 'personal',
+    nivel: 2,
+    pideTexto: true,
+    ayuda: 'El juego con el que lo recuerdas',
+  },
 }
 
 export const NIVELES = [
